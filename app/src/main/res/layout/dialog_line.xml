@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/send_line_click_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="無法登入"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/send_line_click_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="無法登出"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/send_line_click_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="無法開始"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/send_line_click_finsh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="無法完成"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/send_line_click_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="無法列印工作日報"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/send_last_Exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="其他錯誤"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/send_line_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="離開"
+        android:textSize="24sp" />
+</LinearLayout>

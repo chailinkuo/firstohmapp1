@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="開始新製程 Bắt đầu quy trình mới"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="延續前班製程Tiếp tục ca trước"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_changmid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更換機台作業thay đơi máy"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_D1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="底漆1"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+        <Button
+            android:id="@+id/btn_D2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="底漆2"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+
+        <Button
+            android:id="@+id/btn_changcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="底漆換色"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_retest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="重測"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+        <Button
+            android:id="@+id/btn_cut_befor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="切割前開始"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_cut_after"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="切割後開始"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_color_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="色碼"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+
+
+        <Button
+            android:id="@+id/btn_cut_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="切割檢驗"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_OCHeck_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢驗色碼"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_OCHeck_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢驗底漆"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_OCHeck_re"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢重驗底漆"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_CHeck_re1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢色碼重測"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+        <Button
+            android:id="@+id/btn_CHeck_re2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢底漆重測"
+            android:textSize="24sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_allchk_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="全檢2"
+                android:textSize="24sp"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_allchk_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="全檢1"
+                android:textSize="24sp"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/btn_allchk_Remarksb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="分類"
+                android:textSize="24sp"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/def_reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="不良品重測"
+                android:textSize="24sp"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/output_reset1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="良品重測"
+                android:textSize="24sp"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/select_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/start_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/radio_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="開始新製程"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/D1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="底漆半成品"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/D2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="底漆完成品"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_out_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢驗底漆"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_out_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢驗色碼"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_out_1_retest"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢1重測"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_all_1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="全檢1"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_all_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="全檢2"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_all_re_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="全檢良品重測"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_all_re_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="全檢不良品重測"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_all_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="全檢分類"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/check_out_2_retest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="外檢2重測"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/radio_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="接續前班"
+            android:textSize="36sp" />
+
+        <RadioButton
+            android:id="@+id/radio_change_machine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="更換機台"
+            android:textSize="36sp" />
+    </RadioGroup>
+
+</LinearLayout>

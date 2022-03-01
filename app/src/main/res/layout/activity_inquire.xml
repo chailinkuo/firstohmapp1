@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/prdStepRecords"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="本流程單製程查詢"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/usedingmid"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="使用中機台查詢"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/views"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="本流程單檢驗查詢"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/flow"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="未完成流程單"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/QueryNaibei"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="本日電鍍查詢"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/myPodRecords"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="我的生產查詢"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_backhome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="回主畫面"
+        android:textSize="18sp" />
+
+</LinearLayout>

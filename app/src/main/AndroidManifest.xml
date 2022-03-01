@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstohm_produce_kotlin">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launchermic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launchermic"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.firstohm_produce_kotlin.provider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".setting"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".select_Machins"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".shift_flow"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".platingActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".plating_exclude"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".platingautomergeActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".plating_Manual"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".colorsearchActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".plating_finshed"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".plating_send"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".plating_callback"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".InquireActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".InquireviewsActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".editflowActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Dialogoutcheck_1"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".more_option"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".DialogChkdef"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

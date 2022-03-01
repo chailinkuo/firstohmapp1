@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="custom_layout_info">
+        <attr name="button1Text" format="string"/>
+        <attr name="button2Text" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="custom_layout_quant_input">
+        <attr name="button1" format="string"/>
+        <attr name="button2" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="custom_layout_quant_color">
+        <attr name="button3" format="string"/>
+        <attr name="button4" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="custom_layout_main_button"></declare-styleable>
+</resources>

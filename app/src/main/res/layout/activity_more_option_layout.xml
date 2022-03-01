@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/restartwifi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="重啟平板網路連線"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/ic_wifi_adaptive_fore" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/testwifi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="網路連線測試"
+            android:textSize="30sp"
+            app:srcCompat="@drawable/ic_launchermic" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/connectionest"
+            tools:visibility="gone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="設定機台故障與待機"
+        android:layout_gravity="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="操作問題緊急求救"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_cow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="設定(掃描)外檢協調作業人員"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改製程完成數量"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_retun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回主畫面"
+        android:textSize="30sp" />
+
+</LinearLayout>

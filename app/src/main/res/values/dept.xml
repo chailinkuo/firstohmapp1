@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dept">
+
+        <item>選擇部門</item>
+
+        <item>花蓮切割</item>
+
+        <item>花蓮底漆</item>
+
+        <item>花蓮塗裝</item>
+
+        <item>花蓮加壓</item>
+
+        <item>花蓮外檢</item>
+
+        <item>花蓮塗裝</item>
+
+        <item>花蓮色碼</item>
+
+        <item>花蓮電鍍</item>
+
+        <item>花蓮全檢</item>
+
+        <item>花蓮貼帶</item>
+
+    </string-array>
+
+</resources>
