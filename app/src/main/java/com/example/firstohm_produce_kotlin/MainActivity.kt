@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
             if ((cpuInfo.contains("Intel") || cpuInfo.contains("amd"))) {
                 local_test_layout.visibility= View.VISIBLE
             }
-            //local_test_layout.visibility= View.VISIBLE
+            local_test_layout.visibility= View.VISIBLE
 
             if (userBar==""){
                 mainarea.visibility= View.GONE
@@ -492,9 +492,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             btn_update.setOnClickListener{
-                Log.d("00000000000033333333333", shiftName)
                 if (shiftName=="早班"  ||shiftName=="辦公室"){
-                    Log.d("00000000000033333333333", shiftName)
                     download_apk()
                 }
             }

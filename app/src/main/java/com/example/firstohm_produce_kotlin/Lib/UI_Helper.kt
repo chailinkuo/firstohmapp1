@@ -555,8 +555,8 @@ class UI_Helper(view: View){
                     +"<br> tablet_name："+MainActivity.table_custom_name
                     +"<br> flowbar："+MainActivity.flowbar
                     +"<br> userBar："+MainActivity.userBar+"        "
-                    +"<br> EMPNAME："+java.net.URLEncoder.encode(MainActivity.EMPNAME, "utf-8")+"        "
-                    +"<br> dept："+java.net.URLEncoder.encode(MainActivity.dept, "utf-8")+"        "
+                    +"<br> EMPNAME："+MainActivity.EMPNAME+"        "
+                    +"<br> dept："+MainActivity.dept+"        "
                     +"<br> json："+MainActivity.Currjson)
             var jsonString:String?=webapiClient.httpConnectionPost("$url", hashMap)
             Log.d("m", url)
